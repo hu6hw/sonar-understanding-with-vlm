@@ -7,8 +7,8 @@ from datetime import datetime
 # --- Config ---
 DATASET_PATH = 'md_fls_dataset/data/watertank-cropped'
 
-PROMPT = 'What is the following image? ONLY choose from the following classes and NO other response is allowed; bottle, can, chain, drink-carton, hook, propeller, shampoo-bottle, standing-bottle, tire, valve.'
-MODEL = 'gemma3:4b'
+PROMPT = 'What is the following image? ONLY choose from the following classes, NO other response is allowed, and your response MUST be only one word; bottle, can, chain, drink-carton, hook, propeller, shampoo-bottle, standing-bottle, tire, valve.'
+MODEL = 'llama3.2-vision:11b'
 
 VALID_CLASSES = {
     'can', 'bottle', 'drink-carton', 'chain', 'propeller',
@@ -22,7 +22,7 @@ BREAK_AFTER = 1 # Stop running inference after n images. If -1 then don't break
 # Resolve paths
 dataset_root = Path(DATASET_PATH)
 
-chosen_classes = {'bottle', 'can'} # VALID_CLASSES
+chosen_classes = VALID_CLASSES
 for class_name in chosen_classes:
     subset_dir = dataset_root / class_name
 
@@ -43,6 +43,8 @@ for class_name in chosen_classes:
 
     print(datetime.now().astimezone().strftime("Started at: %Y-%m-%d %H:%M:%S %Z"))
     print(f"Found {len(image_paths)} images in '{subset_dir}'. Running inference with model '{MODEL}'...")
+    if BREAK_AFTER > -1: print(f"Stop after {BREAK_AFTER} image(s)")
+
     for i, img in enumerate(image_paths, start=1):
         try:
             resp = ollama.generate(model=MODEL, prompt=PROMPT, images=[str(img)])

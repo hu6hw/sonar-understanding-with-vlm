@@ -71,9 +71,10 @@ for i, img in enumerate(image_paths, start=1):
         # Progress logging
         if i % 10 == 0 or i == len(image_paths):
             print(f"Processed {i}/{len(image_paths)} images...")
-
-	if BREAK_AFTER > -1 and i == BREAK_AFTER: break
-
+            
+        if BREAK_AFTER > -1 and i == BREAK_AFTER: 
+            break
+        
     except Exception as e:
         # Record the error and continue
         records.append({

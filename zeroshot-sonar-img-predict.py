@@ -6,7 +6,7 @@ from datetime import datetime
 
 # --- Config ---
 DATASET_PATH = 'md_fls_dataset/data/watertank-cropped'
-DATASET_SUBSET_PATH = '/can'  # e.g., '/propeller', '/shampoo-bottle', etc.
+DATASET_SUBSET_PATH = '/valve'  # e.g., '/propeller', '/shampoo-bottle', etc
 
 PROMPT = 'What is the following image? ONLY choose from the following classes and NO other response is allowed; bottle, can, chain, drink-carton, hook, propeller, shampoo-bottle, standing-bottle, tire, valve.'
 MODEL = 'gemma3:4b'
@@ -17,7 +17,7 @@ VALID_CLASSES = {
 }
 IMAGE_EXTS = {'.png'}
 
-BREAK_AFTER = -1 # Stop running inference after n-1 images. If -1 then don't break
+BREAK_AFTER = -1 # Stop running inference after n images. If -1 then don't break
 
 # Resolve paths
 dataset_root = Path(DATASET_PATH)

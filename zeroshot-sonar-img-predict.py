@@ -30,9 +30,9 @@ if not subset_dir.exists() or not subset_dir.is_dir():
     raise FileNotFoundError(f"Subset directory not found: {subset_dir}")
 
 # Get all image paths in the subset folder recursively
-image_paths = [
+image_paths = sorted(
     p for p in subset_dir.rglob('*') if p.suffix.lower() in IMAGE_EXTS and p.is_file()
-]
+)
 
 # If no images found then raise error
 if not image_paths:

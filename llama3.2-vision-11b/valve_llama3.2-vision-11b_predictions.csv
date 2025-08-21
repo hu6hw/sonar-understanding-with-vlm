@@ -101,7 +101,7 @@ md_fls_dataset/data/watertank-cropped/valve/valve-187.png,valve,propeller,propel
 md_fls_dataset/data/watertank-cropped/valve/valve-188.png,valve,bottle,bottle.,llama3.2-vision:11b
 md_fls_dataset/data/watertank-cropped/valve/valve-189.png,valve,bottle,bottle.,llama3.2-vision:11b
 md_fls_dataset/data/watertank-cropped/valve/valve-19.png,valve,bottle,bottle.,llama3.2-vision:11b
-md_fls_dataset/data/watertank-cropped/valve/valve-190.png,valve,the following image is: **bottle**,The following image is: **bottle**.,llama3.2-vision:11b
+md_fls_dataset/data/watertank-cropped/valve/valve-190.png,valve,bottle,The following image is: **bottle**.,llama3.2-vision:11b
 md_fls_dataset/data/watertank-cropped/valve/valve-191.png,valve,hook,Hook.,llama3.2-vision:11b
 md_fls_dataset/data/watertank-cropped/valve/valve-192.png,valve,propeller,Propeller.,llama3.2-vision:11b
 md_fls_dataset/data/watertank-cropped/valve/valve-193.png,valve,shampoo-bottle,Shampoo-bottle.,llama3.2-vision:11b
@@ -178,7 +178,7 @@ md_fls_dataset/data/watertank-cropped/valve/valve-7.png,valve,shampoo-bottle,sha
 md_fls_dataset/data/watertank-cropped/valve/valve-70.png,valve,shampoo-bottle,shampoo-bottle.,llama3.2-vision:11b
 md_fls_dataset/data/watertank-cropped/valve/valve-71.png,valve,bottle,bottle.,llama3.2-vision:11b
 md_fls_dataset/data/watertank-cropped/valve/valve-72.png,valve,bottle,bottle.,llama3.2-vision:11b
-md_fls_dataset/data/watertank-cropped/valve/valve-73.png,valve,**answer:** bottle,**Answer:** bottle,llama3.2-vision:11b
+md_fls_dataset/data/watertank-cropped/valve/valve-73.png,valve,bottle,**Answer:** bottle,llama3.2-vision:11b
 md_fls_dataset/data/watertank-cropped/valve/valve-74.png,valve,bottle,Bottle.,llama3.2-vision:11b
 md_fls_dataset/data/watertank-cropped/valve/valve-75.png,valve,bottle,bottle.,llama3.2-vision:11b
 md_fls_dataset/data/watertank-cropped/valve/valve-76.png,valve,bottle,bottle.,llama3.2-vision:11b

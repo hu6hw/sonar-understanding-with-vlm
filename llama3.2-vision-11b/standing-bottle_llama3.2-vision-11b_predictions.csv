@@ -3,7 +3,7 @@ md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-0.png,stan
 md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-1.png,standing-bottle,bottle,bottle.,llama3.2-vision:11b
 md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-10.png,standing-bottle,bottle,bottle.,llama3.2-vision:11b
 md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-11.png,standing-bottle,bottle,bottle.,llama3.2-vision:11b
-md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-12.png,standing-bottle,the image is a **bottle**,The image is a **bottle**.,llama3.2-vision:11b
+md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-12.png,standing-bottle,bottle,The image is a **bottle**.,llama3.2-vision:11b
 md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-13.png,standing-bottle,bottle,bottle.,llama3.2-vision:11b
 md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-14.png,standing-bottle,bottle,bottle.,llama3.2-vision:11b
 md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-15.png,standing-bottle,bottle,bottle.,llama3.2-vision:11b
@@ -16,13 +16,13 @@ md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-20.png,sta
 md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-21.png,standing-bottle,bottle,bottle.,llama3.2-vision:11b
 md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-22.png,standing-bottle,bottle,bottle.,llama3.2-vision:11b
 md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-23.png,standing-bottle,bottle,bottle.,llama3.2-vision:11b
-md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-24.png,standing-bottle,the image is a bottle,The image is a bottle.,llama3.2-vision:11b
+md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-24.png,standing-bottle,bottle,The image is a bottle.,llama3.2-vision:11b
 md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-25.png,standing-bottle,bottle,bottle.,llama3.2-vision:11b
 md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-26.png,standing-bottle,bottle,bottle.,llama3.2-vision:11b
 md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-27.png,standing-bottle,shampoo-bottle,Shampoo-bottle.,llama3.2-vision:11b
 md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-28.png,standing-bottle,bottle,bottle.,llama3.2-vision:11b
 md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-29.png,standing-bottle,bottle,bottle.,llama3.2-vision:11b
-md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-3.png,standing-bottle,the image is: bottle,The image is: bottle.,llama3.2-vision:11b
+md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-3.png,standing-bottle,bottle,The image is: bottle.,llama3.2-vision:11b
 md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-30.png,standing-bottle,shampoo-bottle,shampoo-bottle.,llama3.2-vision:11b
 md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-31.png,standing-bottle,shampoo-bottle,shampoo-bottle.,llama3.2-vision:11b
 md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-32.png,standing-bottle,shampoo-bottle,shampoo-bottle.,llama3.2-vision:11b
@@ -37,8 +37,8 @@ md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-4.png,stan
 md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-40.png,standing-bottle,shampoo-bottle,shampoo-bottle.,llama3.2-vision:11b
 md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-41.png,standing-bottle,bottle,bottle.,llama3.2-vision:11b
 md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-42.png,standing-bottle,bottle,bottle.,llama3.2-vision:11b
-md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-43.png,standing-bottle,**answer:** bottle,**Answer:** bottle.,llama3.2-vision:11b
-md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-44.png,standing-bottle,**answer:** bottle,**Answer:** bottle.,llama3.2-vision:11b
+md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-43.png,standing-bottle,bottle,**Answer:** bottle.,llama3.2-vision:11b
+md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-44.png,standing-bottle,bottle,**Answer:** bottle.,llama3.2-vision:11b
 md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-45.png,standing-bottle,bottle,bottle.,llama3.2-vision:11b
 md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-46.png,standing-bottle,bottle,bottle.,llama3.2-vision:11b
 md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-47.png,standing-bottle,shampoo-bottle,shampoo-bottle.,llama3.2-vision:11b
@@ -57,7 +57,7 @@ md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-58.png,sta
 md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-59.png,standing-bottle,bottle,bottle.,llama3.2-vision:11b
 md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-6.png,standing-bottle,bottle,bottle.,llama3.2-vision:11b
 md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-60.png,standing-bottle,bottle,bottle.,llama3.2-vision:11b
-md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-61.png,standing-bottle,**answer:** bottle,**Answer:** bottle,llama3.2-vision:11b
+md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-61.png,standing-bottle,bottle,**Answer:** bottle,llama3.2-vision:11b
 md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-62.png,standing-bottle,shampoo-bottle,shampoo-bottle.,llama3.2-vision:11b
 md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-63.png,standing-bottle,bottle,bottle.,llama3.2-vision:11b
 md_fls_dataset/data/watertank-cropped/standing-bottle/standing-bottle-64.png,standing-bottle,bottle,bottle.,llama3.2-vision:11b

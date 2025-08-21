@@ -10,8 +10,8 @@ import ollama
 # # or access fields directly from the response object
 # print(response.message.content)
 
-img_path = 'md_fls_dataset/data/watertank-cropped/shampoo-bottle/shampoo-bottle-13.png'
+img_path = 'neom-cZkdauWij50-unsplash.jpg'
 
-resp = ollama.generate(model='gemma3', prompt='Which of the following classes is the image most likely to represent? Only reply with one of the class names. can, bottle, drink-carton, chain, propeller, tire, hook, valve, shampoo-bottle, standing-bottle, background', images=[img_path])
+resp = ollama.generate(model='llama3.2-vision', prompt='What is the image', images=[img_path])
 print(resp)
 print(resp.response)

@@ -8,7 +8,7 @@ from datetime import datetime
 DATASET_PATH = 'md_fls_dataset/data/watertank-cropped'
 
 PROMPT = 'What is the following image? ONLY REPLY WITH ONE WORD FROM THE FOLLOWING AND REPLY WITH THE WORD EXACTLY. DO NOT SAY THE IMAGE IS X, JUST REPLY X: bottle, can, chain, drink-carton, hook, propeller, shampoo-bottle, standing-bottle, tire, valve.'
-MODEL = 'llama3.2-vision:11b'
+MODEL = 'llava:34b'
 
 VALID_CLASSES = {
     'can', 'bottle', 'drink-carton', 'chain', 'propeller',
@@ -22,7 +22,7 @@ BREAK_AFTER = -1 # Stop running inference after n images. If -1 then don't break
 # Resolve paths
 dataset_root = Path(DATASET_PATH)
 
-chosen_classes = {'valve', 'tire', 'drink-carton'}
+chosen_classes = {'tire', 'hook'}
 for class_name in chosen_classes:
     subset_dir = dataset_root / class_name
 

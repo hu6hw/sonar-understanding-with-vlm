@@ -12,6 +12,6 @@ import ollama
 
 img_path = 'neom-cZkdauWij50-unsplash.jpg'
 
-resp = ollama.generate(model='llama3.2-vision', prompt='What is the image', images=[img_path])
+resp = ollama.generate(model='llava:34b', prompt='What is the image', images=[img_path])
 print(resp)
 print(resp.response)
